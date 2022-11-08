@@ -19,7 +19,7 @@ nav{
 }
 label.logo{font-size: xx-large;
     color: rgb(0, 0, 0);
-    margin:0 50px;
+    margin:0 30px;
     padding: 0 ;
     line-height: 80px;
     font-weight: bold;
@@ -49,7 +49,7 @@ nav ul li a{
     color:rgb(14, 14, 11);
     float:left;
     line-height: 80px;
-    margin-left: 40px;
+    margin-left: 10px;
     cursor: pointer;
     display: none;
 }
@@ -574,7 +574,7 @@ footer{background: #151516;
         border-radius:10px;
     }
     label.logo{
-        font-size: 30px;
+        font-size: 27px;
         padding-left: 1px;
     }
     nav ul{
