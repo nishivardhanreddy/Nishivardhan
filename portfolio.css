@@ -1,0 +1,793 @@
+*{ 
+    padding: 0;
+    margin:0;
+    border: none;
+    
+}
+body{
+    background-image: linear-gradient(to right, rgba(223, 242, 251, 0.818), rgb(188, 240, 253));
+    
+}
+nav{
+    background: rgb(254, 253, 253);
+    width:80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 180px;
+    border: none;
+    border-radius:10px;
+}
+label.logo{font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin:0 50px;
+    padding: 0 ;
+    line-height: 80px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 200px;
+}
+nav ul li{
+       display:inline-block;
+       line-height: 80px;
+       margin: 0 5px;
+}
+a:link {
+    text-decoration: none;}
+nav ul li a{ 
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+     font-weight: bold;
+     padding: 7px 13px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+ nav ul li a:hover{
+    color:rgb(255, 125, 49);
+}
+.checkbtn{font-size: 30px;
+    color:rgb(14, 14, 11);
+    float:left;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none;
+}
+
+.profile{
+         width: 100%;
+         height: 800px;
+         overflow-x: hidden;
+        
+}
+.container{
+    background-color:white ;
+    width: 80%;
+    height: 550px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+.image{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.prof{
+    position: relative;
+    bottom: 170px;
+    left: 650px;
+    color: rgb(16, 17, 19);
+}
+.wish{
+    font-size:large;
+}
+.name{
+    font-size:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+}
+.front{
+    font-size: medium;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.dev{
+    color:rgb(161, 38, 161);
+}
+.social{
+    position: relative;
+    bottom: 50px;
+    left: 60%;
+}
+.linkedin{
+    font-size: 40px;
+    color: rgb(11, 12, 12);
+    margin: 20px;
+}
+.git{
+    font-size:40px;
+    color: rgb(7, 9, 10);
+    margin: 20px;
+}
+.insta{
+    font-size:40px;
+    color: rgb(13, 14, 15);
+    margin: 20px;
+}
+.linkedin:hover{
+    color: rgb(36, 145, 235);
+}
+.git:hover{
+   color: rgb(41, 162, 222);
+}
+.insta:hover{
+   color:rgb(251, 57, 88);
+    
+}
+.about{
+   background-color:none;
+    width: 100%;
+    height:1200px;
+    overflow-x: hidden;
+    
+}
+.info{
+    position: relative;
+    top: 9%;
+    left:90px;
+    margin:80px;
+    
+}
+.info:before{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #000000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-left:-80px;
+     
+}
+.me{position: relative;
+    top: 10%;
+    left: 80px;
+    text-align:left;
+    font-size: x-large;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.aboutme{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top:15%;
+    left:80px;
+    border: none;
+    border-radius:20px;
+}
+.cse{
+    text-align: center;
+    font-size:large;
+    font-style: normal;
+    font-weight:bold;
+    position: relative;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 32, 32);
+}
+.skills{background-color: aliceblue;
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top:30%;
+    left:100px;
+    border-radius:20px;
+}
+.com{
+    position: relative;
+    top: 24%;
+    left:90px;
+    margin:80px;
+}
+.com:before{
+    content:"";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #000000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-left:-90px;
+     
+
+}
+.skill{
+    position: relative;
+    top:25%;
+    left:5%;
+    text-align:left;
+    font-size: x-large;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    left:80px;
+    font-size:60px;
+    color: rgb(81, 78, 78);
+
+}
+.html{
+    margin-right: 30px;
+    color: #f47c21;
+}
+.css{
+    margin-right: 30px;
+    color: rgb(23, 96, 230);
+}
+.python{
+    color: rgb(225, 208, 19);
+}
+.myedu{
+    background-color:none;
+    width: 100%;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+.edu{
+    color: rgb(20, 21, 21);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   background-color: rgb(76, 171, 225);
+   width:250px;
+   height: 45px;
+   border-radius: 10px;
+   text-align: center;
+   position: relative;
+   left:650px;
+   top:10px;
+   overflow-x: hidden;
+}
+.box{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    top:30%;
+    left:10%;
+    overflow-x: hidden;
+}
+.higher{
+    background-color: aliceblue;
+    width: 400px;
+    height: 300px;
+    border:none;
+    border-radius: 20px;
+    margin-right:55px ;
+
+}
+
+
+.HE{ 
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.lpu{
+    margin-top: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    padding-left:10px;
+}
+.HSE{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.SE{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px
+
+}
+
+.con{
+    color:aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    left: 15px;
+}
+.contact{
+       background-color: #272729;
+       width: 100%;
+       height:800px;
+       overflow-x: hidden;
+}
+.contact-box{
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 10%;
+    left:10%;
+
+}
+.input-field{
+    width: 400px;
+    height: 45px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    
+}
+.textarea-field{
+    height: 150px;
+    font-size:large;
+}
+.btn{
+     border-radius: 20px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     border: none;
+     background-color:#47c35a;
+     font-size: 12px;
+     cursor: pointer;
+}
+.btn:hover{
+        font-size: 11px;
+     background-color: #34cb4b;
+}
+.GIT{
+    background-color:none;
+    width: 22%;
+    height: 200px;
+    position: relative;
+    left: 60%;
+    bottom: 340px;
+}
+.getin{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-size:larger;
+    text-align: center;
+    position: relative;
+    top:-50px;
+}
+.GIT i{
+    margin-right: 25px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #fff;
+}
+.GIT a{
+    font-size: 20px;
+    color: #fff;
+    line-height: 80px;
+}
+.fmh{
+    color: rgb(156, 151, 151);
+    position: relative;
+    bottom: 280px;
+    left: 65%;
+}
+.fmh:before{
+    content:"";
+    display: block;
+    border: none;
+    width: 80px;
+    height: 1px;
+    background-color: #807d7d;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-left:-90px;
+
+}
+.fmh:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #807d7d;
+    top:50%;
+    position: absolute;
+    margin-left:100px;
+}
+.smedia{
+    position: relative;
+    bottom:250px;
+    left:60%;
+    font-size: 35px;
+}
+.linked{
+    color: #525252;
+    margin: 20px;
+}
+.github{
+    color: #525252;
+    margin: 20px;
+}
+.instagram{
+    color: #525252;
+    margin: 20px;
+}
+footer{background: #151516;
+    width: 100%;
+    height: 40px;
+
+}
+
+/*** MEDIA***/
+
+@media screen and (max-width: 1300px) and (min-width:760px) {
+    nav{
+        background: white;
+        width: 90%;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 10px;
+         border: none;
+        border-radius:10px;
+
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    nav ul{
+        margin-right: 50px;
+    }
+    nav ul li{
+        display:inline-block;
+        margin: 0 2px;
+       
+
+    }
+    nav ul li a{
+        font-size: 18px;
+
+    }
+    .profile{
+        width: 100%;
+        height: 900px;
+    }
+    .container{
+        background-color:white ;
+        width: 80%;
+        height: 650px;
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        top: 100px;
+        left: 50px;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 150px;
+        left: 30px;
+    }
+    .prof{
+        position:absolute;
+        bottom:40%;
+        left: 50%;
+        color: rgb(16, 17, 19);
+    }
+    .wish{
+        font-size:large;
+    }
+    .name{
+        font-size:70px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        margin-top: 10px;
+    }
+    .front{
+        font-size: medium;
+        font-weight:bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+    }
+    .dev{
+        color:rgb(161, 38, 161);
+    }
+    .social{
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+    }
+    .fmh{
+        color: rgb(156, 151, 151);
+        position: relative;
+        bottom: 28px;
+        left: 55%;
+    }
+    .smedia{
+        position: relative;
+        bottom:10px;
+        left:50%;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:750px ) {
+    *{ 
+        padding: 0;
+        margin:0;
+        border: none;
+    }
+    body{
+        background-image: linear-gradient(to right, rgba(223, 242, 251, 0.818), rgb(188, 240, 253));
+       
+       
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        background: white;
+        width: 90%;
+        height: 80px;
+        margin-top: 20px;
+        margin-left:15px;
+         border: none;
+        border-radius:10px;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    nav ul{
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+        background:wheat;
+        color: #000000;
+        top:80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 9999;
+        border: none;
+        border-radius: 10px;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li a:hover{
+        background-color: #f47c21;
+        color: #fff;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .profile{
+        width: 100%;
+        height: 900px;
+    }
+    .container{
+        background-color:white ;
+        width: 80%;
+        height: 700px;
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        top: 100px;
+        left: 50px;
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .prof{
+        position:absolute;
+        bottom:90px;
+        left: 50px;
+        color: rgb(16, 17, 19);
+    }
+    .wish{
+        font-size:large;
+    }
+    .name{
+        font-size:70px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        margin-top: 10px;
+    }
+    .front{
+        font-size: medium;
+        font-weight:bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+    }
+    .dev{
+        color:rgb(161, 38, 161);
+    }
+    .social{
+        position: absolute;
+        bottom: 15px;
+        left: 50px;
+    }
+    .linkedin{
+        font-size: 40px;
+        color: rgb(11, 12, 12);
+        margin: 20px;
+    }
+    .git{
+        font-size:40px;
+        color: rgb(7, 9, 10);
+        margin: 20px;
+    }
+    .insta{
+        font-size:40px;
+        color: rgb(13, 14, 15);
+        margin: 20px;
+    }
+    .linkedin:hover{
+        color: rgb(36, 145, 235);
+        
+    }
+    .git:hover{
+       color: rgb(41, 162, 222);
+    }
+    .insta:hover{
+       color:rgb(251, 57, 88);
+        
+    }
+    .about{
+        height:750px;
+    }
+    .info:before{
+     margin-left: -70px;
+    }
+    .info{
+        left: 40px;
+        
+    }
+    .me{
+        left: 40px;
+    }
+    .aboutme{
+        width: 90%;
+        height: 150px;
+        left: 30px;
+    }
+    .cse{
+        text-align: start;
+        font-size:medium;
+        font-weight: 500;
+        top: 20px;
+        left: 1px;
+        color:#343a40;
+    }
+    .com{
+        left: 40px;
+    }
+    .com:before{
+        margin-left: -70px;
+    }
+    .skill{
+        left: 40px;
+    }
+    .skills{
+        width: 90%;
+        height: 150px;
+        left: 30px;
+    }
+    .flex-container{
+        font-size: 30px;
+    }
+    .myedu{
+        width: 100%;
+        height:1200px;
+    }
+    .edu{
+        left: 25px;
+        top: 20px;
+
+    }
+    .box{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top:10%;
+        left:15px;
+    }
+    .higher{
+        margin-bottom: 25px;
+        width: 90%;
+    }
+    .contact{
+        width: 100%;
+        height: 1200px;
+    }
+    .contact-box{
+        width: 300px;
+        height: 700px;
+        position: relative;
+        top: 5%;
+        left:10%;
+    }
+    .input-field{
+        width: 300px;
+        height: 45px;
+        margin-top: 25px;
+        padding-left: 1px;
+        padding-right: 10px;
+        border: 1px solid #fff;
+        border-radius: 14px;
+        
+    }
+    .textarea-field{
+        height: 150px;
+        font-size:large;
+    }
+    .GIT{
+        background-color:none;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        left:0;
+        bottom: 34px;
+    }
+    .GIT i{
+        margin-left: 20px;
+    }
+    .fmh{
+        color: rgb(156, 151, 151);
+        position: relative;
+        bottom: 28px;
+        left: 35%;
+    }
+    .smedia{
+        position: relative;
+        bottom:10px;
+        left:16%;
+        font-size: 35px;
+    }
+    
+
+
+}
