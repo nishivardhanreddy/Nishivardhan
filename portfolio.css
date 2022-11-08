@@ -530,8 +530,12 @@ footer{background: #151516;
         bottom: 30%;
         left: 50%;
     }
+    .box{
+        left:1%;
+    }
     .GIT{
         width:30%;
+    }
     .fmh{
         color: rgb(156, 151, 151);
         position: relative;
