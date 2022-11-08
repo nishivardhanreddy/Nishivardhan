@@ -773,7 +773,10 @@ footer{background: #151516;
         bottom: 34px;
     }
     .GIT i{
-        margin-left: 20px;
+        margin-left: 15px;
+    }
+    .GIT a{
+        font-size:small;
     }
     .fmh{
         color: rgb(156, 151, 151);
