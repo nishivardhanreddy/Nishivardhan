@@ -452,7 +452,7 @@ footer{background: #151516;
 
 /*** MEDIA***/
 
-@media screen and (max-width: 1100px) and (min-width:760px) {
+@media screen and (max-width: 1299px) and (min-width:880px) {
     nav{
         background: white;
         width: 90%;
@@ -486,7 +486,7 @@ footer{background: #151516;
     }
     .container{
         background-color:white ;
-        width: 80%;
+        width: 90%;
         height: 650px;
         border: none;
         border-radius: 10px;
@@ -530,6 +530,8 @@ footer{background: #151516;
         bottom: 30%;
         left: 50%;
     }
+    .GIT{
+        width:30%;
     .fmh{
         color: rgb(156, 151, 151);
         position: relative;
@@ -544,7 +546,7 @@ footer{background: #151516;
     }
 }
 
-@media screen and (max-width:750px ) {
+@media screen and (max-width:849px ) {
     *{ 
         padding: 0;
         margin:0;
