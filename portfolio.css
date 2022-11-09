@@ -657,19 +657,19 @@ footer{background: #151516;
         left: 50px;
     }
     .linkedin{
-        font-size: 40px;
+        font-size: 30px;
         color: rgb(11, 12, 12);
-        margin: 20px;
+        margin: 15px;
     }
     .git{
-        font-size:40px;
+        font-size:30px;
         color: rgb(7, 9, 10);
-        margin: 20px;
+        margin: 15px;
     }
     .insta{
-        font-size:40px;
+        font-size:30px;
         color: rgb(13, 14, 15);
-        margin: 20px;
+        margin: 15px;
     }
     .linkedin:hover{
         color: rgb(36, 145, 235);
