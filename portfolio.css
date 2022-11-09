@@ -550,7 +550,7 @@ footer{background: #151516;
     }
 }
 
-@media screen and (max-width:849px ) {
+@media screen and (max-width:879px ) {
     *{ 
         padding: 0;
         margin:0;
@@ -637,7 +637,7 @@ footer{background: #151516;
         font-size:large;
     }
     .name{
-        font-size:70px;
+        font-size:50px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: normal;
         margin-top: 10px;
