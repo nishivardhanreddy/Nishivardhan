@@ -83,7 +83,7 @@ nav ul li a{
 .prof{
     position: relative;
     bottom: 170px;
-    left: 650px;
+    left: 630px;
     color: rgb(16, 17, 19);
 }
 .wish{
@@ -137,7 +137,7 @@ nav ul li a{
 .about{
    background-color:none;
     width: 100%;
-    height:1200px;
+    height:800px;
     overflow-x: hidden;
     
 }
@@ -246,6 +246,85 @@ nav ul li a{
 }
 .python{
     color: rgb(225, 208, 19);
+    margin-right: 30px;
+}
+.java{
+    margin-right: 30px;
+    color: rgb(28, 88, 161);
+}
+.projects{
+    width: 100%;
+    height: 700px;
+    overflow-x: hidden;
+}
+.flex-containe{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        height: auto;
+        width: 70%;
+        top:20%;
+        left:300px;
+        border-radius:20px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+ }
+.projectbox{ 
+    width: 250px;
+    height: 270px;
+    margin: 20px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    transition: 1s;
+ }
+.projectbox:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.projectimg{
+    width:100%;
+    height: 150px;
+    border-radius: 20px;
+}
+.projectname{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+}   
+.projectdesc{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 2px;
+}
+.viewproject{
+    width:30%;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 75px;
+    border-radius: 10px;
+    text-align: center;
+}
+.viewproject a{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 2px;
+    
+}
+.viewproject:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 1s;
 }
 .myedu{
     background-color:none;
@@ -286,8 +365,6 @@ nav ul li a{
     margin-right:55px ;
 
 }
-
-
 .HE{ 
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
