@@ -175,7 +175,7 @@ nav ul li a{
     height: 200px;
     position: relative;
     top:15%;
-    left:80px;
+    left:160px;
     border: none;
     border-radius:20px;
 }
@@ -231,7 +231,7 @@ nav ul li a{
     flex-direction: row;
     position: relative;
     top: 50px;
-    left:80px;
+    left:180px;
     font-size:60px;
     color: rgb(81, 78, 78);
 
@@ -272,7 +272,7 @@ nav ul li a{
  }
 .projectbox{ 
     width: 250px;
-    height: 270px;
+    height: 290px;
     margin: 20px;
     margin-right: 50px;
     border-radius: 20px;
@@ -879,3 +879,4 @@ footer{background: #151516;
 
 
 }
+
