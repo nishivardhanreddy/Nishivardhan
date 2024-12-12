@@ -1,879 +1,347 @@
-*{ 
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
     padding: 0;
-    margin:0;
-    border: none;
-    
+    background-color: #f4f4f9;
 }
-body{
-    background-image: linear-gradient(to right, rgba(223, 242, 251, 0.818), rgb(188, 240, 253));
-    
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
-nav{
-    background: rgb(254, 253, 253);
-    width:80%;
-    height: 80px;
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profile .profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile .profile-text h1 {
+    font-size: 32px;
     margin-top: 20px;
-    margin-left: 180px;
-    border: none;
-    border-radius:10px;
-}
-label.logo{font-size: xx-large;
-    color: rgb(0, 0, 0);
-    margin:0 30px;
-    padding: 0 ;
-    line-height: 80px;
-    font-weight: bold;
-}
-nav ul{
-    float: right;
-    margin-right: 200px;
-}
-nav ul li{
-       display:inline-block;
-       line-height: 80px;
-       margin: 0 5px;
-}
-a:link {
-    text-decoration: none;}
-nav ul li a{ 
-     color: rgb(0, 0, 0);
-     font-size: 20px;
-     font-weight: bold;
-     padding: 7px 13px;
-     font-family: Arial, Helvetica, sans-serif;
-}
- nav ul li a:hover{
-    color:rgb(255, 125, 49);
-}
-.checkbtn{font-size: 30px;
-    color:rgb(14, 14, 11);
-    float:left;
-    line-height: 80px;
-    margin-left: 10px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display:none;
 }
 
-.profile{
-         width: 100%;
-         height: 800px;
-         overflow-x: hidden;
-        
+.profile .profile-text p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
 }
-.container{
-    background-color:white ;
+
+.social-links a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* Default hover color (LinkedIn color) */
+}
+
+.social-links a.github:hover {
+    color: #333; /* GitHub color */
+}
+
+.social-links a.instagram:hover {
+    color: #e4405f; /* Instagram color */
+}
+
+/* About Me Section */
+.aboutme {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.aboutme h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.aboutme p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 150px;
+}
+
+.skill h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+.skill-bar.python {
     width: 80%;
-    height: 550px;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    top: 100px;
-    left: 180px;
+    background-color: #306998; /* Python color */
 }
-.image{
-    width: 350px;
-    height: 350px;
-    position: relative;
-    top: 100px;
-    left: 150px;
+
+.skill-bar.numpy {
+    width: 85%;
+    background-color: #7F7F7F; /* NumPy & Pandas color */
 }
-.prof{
-    position: relative;
-    bottom: 170px;
-    left: 630px;
-    color: rgb(16, 17, 19);
+
+.skill-bar.html {
+    width: 90%;
+    background-color: #f16529;
 }
-.wish{
-    font-size:large;
+
+.skill-bar.css {
+    width: 85%;
+    background-color: #2965f1;
 }
-.name{
-    font-size:70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
+
+.skill-bar.js {
+    width: 75%;
+    background-color: #f7df1e;
+}
+
+.skill-bar.ml {
+    width: 70%;
+    background-color: #FF7043; /* Machine Learning color */
+}
+
+.skill-bar.git {
+    width: 80%;
+    background-color: #F14E1D; /* Git color */
+}
+
+.skill-bar.ds {
+    width: 80%;
+    background-color: #FF5722; /* Data Science color */
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.projects h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 22px;
     margin-top: 10px;
 }
-.front{
-    font-size: medium;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
+
+.project p {
+    font-size: 16px;
+    color: #555;
     margin-top: 5px;
 }
-.dev{
-    color:rgb(161, 38, 161);
-}
-.social{
-    position: relative;
-    bottom: 50px;
-    left: 60%;
-}
-.linkedin{
-    font-size: 40px;
-    color: rgb(11, 12, 12);
-    margin: 20px;
-}
-.git{
-    font-size:40px;
-    color: rgb(7, 9, 10);
-    margin: 20px;
-}
-.insta{
-    font-size:40px;
-    color: rgb(13, 14, 15);
-    margin: 20px;
-}
-.linkedin:hover{
-    color: rgb(36, 145, 235);
-}
-.git:hover{
-   color: rgb(41, 162, 222);
-}
-.insta:hover{
-   color:rgb(251, 57, 88);
-    
-}
-.about{
-   background-color:none;
-    width: 100%;
-    height:800px;
-    overflow-x: hidden;
-    
-}
-.info{
-    position: relative;
-    top: 9%;
-    left:90px;
-    margin:80px;
-    
-}
-.info:before{
-    content:"";
-    display: block;
-    width: 60px;
-    height: 1px;
-    background-color: #000000;
-    left: 0;
-    top: 50%;
-    position: absolute;
-    margin-left:-80px;
-     
-}
-.me{position: relative;
-    top: 10%;
-    left: 160px;
-    text-align:left;
-    font-size: x-large;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-}
-.aboutme{
-    background-color: rgb(255, 255, 255);
-    width: 70%;
-    height: 200px;
-    position: relative;
-    top:15%;
-    left:80px;
-    border: none;
-    border-radius:20px;
-}
-.cse{
-    text-align: center;
-    font-size:large;
-    font-style: normal;
-    font-weight:bold;
-    position: relative;
-    top: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(33, 32, 32);
-}
-.skills{background-color: aliceblue;
-    width: 70%;
-    height: 200px;
-    position: relative;
-    top:30%;
-    left:100px;
-    border-radius:20px;
-}
-.com{
-    position: relative;
-    top: 24%;
-    left:90px;
-    margin:80px;
-}
-.com:before{
-    content:"";
-    display: block;
-    width: 50px;
-    height: 1px;
-    background-color: #000000;
-    left: 0;
-    top: 50%;
-    position: absolute;
-    margin-left:-90px;
-     
 
-}
-.skill{
-    position: relative;
-    top:25%;
-    left:5%;
-    text-align:left;
-    font-size: x-large;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-}
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 50px;
-    left:80px;
-    font-size:60px;
-    color: rgb(81, 78, 78);
-
-}
-.html{
-    margin-right: 30px;
-    color: #f47c21;
-}
-.css{
-    margin-right: 30px;
-    color: rgb(23, 96, 230);
-}
-.python{
-    color: rgb(225, 208, 19);
-    margin-right: 30px;
-}
-.java{
-    margin-right: 30px;
-    color: rgb(28, 88, 161);
-}
-.projects{
-    width: 100%;
-    height: 700px;
-    overflow-x: hidden;
-}
-.flex-containe{
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        height: auto;
-        width: 70%;
-        top:20%;
-        left:300px;
-        border-radius:20px;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-
- }
-.projectbox{ 
-    width: 270px;
-    height: 270px;
-    margin: 20px;
-    margin-right: 50px;
-    border-radius: 20px;
-    background-color: aliceblue;
-    overflow-x: hidden;
-    transition: 1s;
- }
-.projectbox:hover{
-    transform: scale(1.3);
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-}
-.projectimg{
-    width:100%;
-    height: 150px;
-    border-radius: 20px;
-}
-.projectname{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-top: 5px;
-}   
-.projectdesc{
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-top: 2px;
-}
-.viewproject{
-    width:30%;
-    height: 20px;
-    background-color: rgb(0, 0, 0);
+.project a {
+    display: inline-block;
     margin-top: 10px;
-    margin-left: 75px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
     text-align: center;
 }
-.viewproject a{
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin-top: 2px;
-    
-}
-.viewproject:hover{
-    transform: scale(1.3);
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    transition: 1s;
-}
-.myedu{
-    background-color:none;
-    width: 100%;
-    height: 600px;
-    overflow-x: hidden;
+
+footer p {
+    font-size: 16px;
 }
 
-.edu{
-    color: rgb(20, 21, 21);
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-   background-color: rgb(76, 171, 225);
-   width:250px;
-   height: 45px;
-   border-radius: 10px;
-   text-align: center;
-   position: relative;
-   left:650px;
-   top:10px;
-   overflow-x: hidden;
-}
-.box{
-    display: flex;
-    flex-direction:row;
-    position: relative;
-    top:30%;
-    left:10%;
-    overflow-x: hidden;
-}
-.higher{
-    background-color: aliceblue;
-    width: 400px;
-    height: 300px;
-    border:none;
-    border-radius: 20px;
-    margin-right:55px ;
+/* Media Queries for Mobile and Tablet Devices */
 
-}
-.HE{ 
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-}
-.lpu{
-    margin-top: 50px;
-    line-height: 20px;
-    font-size: 20px;
-    padding-left:10px;
-}
-.HSE{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10px;
-
-}
-
-.SE{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10px
-
-}
-
-.con{
-    color:aliceblue;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    position: relative;
-    top:20px;
-    left: 15px;
-}
-.contact{
-       background-color: #272729;
-       width: 100%;
-       height:800px;
-       overflow-x: hidden;
-}
-.contact-box{
-    width: 500px;
-    height: 450px;
-    position: relative;
-    top: 10%;
-    left:10%;
-
-}
-.input-field{
-    width: 400px;
-    height: 45px;
-    margin-top: 25px;
-    padding-left: 15px;
-    padding-right: 10px;
-    border: 1px solid #fff;
-    border-radius: 14px;
-    
-}
-.textarea-field{
-    height: 150px;
-    font-size:large;
-}
-.btn{
-     border-radius: 20px;
-     color: #fff;
-     margin-top: 18px;
-     padding: 10px;
-     border: none;
-     background-color:#47c35a;
-     font-size: 12px;
-     cursor: pointer;
-}
-.btn:hover{
-        font-size: 11px;
-     background-color: #34cb4b;
-}
-.GIT{
-    background-color:none;
-    width: 22%;
-    height: 200px;
-    position: relative;
-    left: 60%;
-    bottom: 340px;
-}
-.getin{
-    color: rgb(255, 255, 255);
-    font-size: medium;
-    font-size:larger;
-    text-align: center;
-    position: relative;
-    top:-50px;
-}
-.GIT i{
-    margin-right: 25px;
-    line-height: 80px;
-    font-size: 30px;
-    color: #fff;
-}
-.GIT a{
-    font-size: 20px;
-    color: #fff;
-    line-height: 80px;
-}
-.fmh{
-    color: rgb(156, 151, 151);
-    position: relative;
-    bottom: 280px;
-    left: 65%;
-}
-.fmh:before{
-    content:"";
-    display: block;
-    border: none;
-    width: 80px;
-    height: 1px;
-    background-color: #807d7d;
-    left: 0;
-    top: 50%;
-    position: absolute;
-    margin-left:-90px;
-
-}
-.fmh:after{
-    content: "";
-    display: block;
-    width: 80px;
-    height: 1px;
-    background-color: #807d7d;
-    top:50%;
-    position: absolute;
-    margin-left:100px;
-}
-.smedia{
-    position: relative;
-    bottom:250px;
-    left:60%;
-    font-size: 35px;
-}
-.linked{
-    color: #525252;
-    margin: 20px;
-}
-.github{
-    color: #525252;
-    margin: 20px;
-}
-.instagram{
-    color: #525252;
-    margin: 20px;
-}
-footer{background: #151516;
-    width: 100%;
-    height: 40px;
-
-}
-
-/*** MEDIA***/
-
-@media screen and (max-width: 1299px) and (min-width:880px) {
-    nav{
-        background: white;
-        width: 90%;
-        height: 80px;
-        margin-top: 20px;
-        margin-left: 10px;
-         border: none;
-        border-radius:10px;
-
+/* For Tablets (Portrait and Landscape) */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
     }
-    label.logo{
-        font-size: 30px;
-        padding-left: 1px;
-    }
-    nav ul{
-        margin-right: 50px;
-    }
-    nav ul li{
-        display:inline-block;
-        margin: 0 2px;
-       
 
-    }
-    nav ul li a{
-        font-size: 18px;
-
-    }
-    .profile{
-        width: 100%;
-        height: 900px;
-    }
-    .container{
-        background-color:white ;
-        width: 90%;
-        height: 650px;
-        border: none;
-        border-radius: 10px;
-        position: relative;
-        top: 100px;
-        left: 50px;
-    }
-    .image{
-        width: 300px;
-        height: 300px;
-        position: relative;
-        top: 150px;
-        left: 30px;
-    }
-    .prof{
-        position:absolute;
-        bottom:40%;
-        left: 50%;
-        color: rgb(16, 17, 19);
-    }
-    .wish{
-        font-size:large;
-    }
-    .name{
-        font-size:70px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: normal;
+    nav ul li {
+        margin-left: 0;
         margin-top: 10px;
     }
-    .front{
-        font-size: medium;
-        font-weight:bold;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 5px;
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
     }
-    .dev{
-        color:rgb(161, 38, 161);
+
+    .profile .profile-content {
+        flex-direction: column;
+        align-items: center;
     }
-    .social{
-        position: absolute;
-        bottom: 30%;
-        left: 50%;
+
+    .profile .profile-img img {
+        width: 120px;
+        height: 120px;
     }
-    .box{
-        left:1%;
+
+    .profile .profile-text h1 {
+        font-size: 28px;
     }
-    .GIT{
-        width:30%;
+
+    .social-links a {
+        font-size: 20px;
+        margin: 5px;
     }
-    .fmh{
-        color: rgb(156, 151, 151);
-        position: relative;
-        bottom: 28px;
-        left: 55%;
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
     }
-    .smedia{
-        position: relative;
-        bottom:10px;
-        left:50%;
-        font-size: 35px;
+
+    .skill {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%;
+        margin-bottom: 20px;
     }
 }
 
-@media screen and (max-width:879px ) {
-    *{ 
-        padding: 0;
-        margin:0;
-        border: none;
+/* For Mobile (Portrait) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
     }
-    body{
-        background-image: linear-gradient(to right, rgba(223, 242, 251, 0.818), rgb(188, 240, 253));
-       
-       
-    }
-    .checkbtn{
-        display: block;
-    }
-    nav{
-        background: white;
-        width: 90%;
-        height: 80px;
-        margin-top: 20px;
-        margin-left:15px;
-         border: none;
-        border-radius:10px;
-    }
-    label.logo{
-        font-size: 27px;
-        padding-left: 1px;
-    }
-    nav ul{
-        position:absolute;
-        width: 100%;
-        height: 100vh;
-        background:wheat;
-        color: #000000;
-        top:80px;
-        left: -100%;
-        text-align: center;
-        transition: all 0.5s;
-        z-index: 9999;
-        border: none;
-        border-radius: 10px;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
+
+    nav .logo {
         font-size: 20px;
     }
-    nav ul li a:hover{
-        background-color: #f47c21;
-        color: #fff;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    .profile{
-        width: 100%;
-        height: 900px;
-    }
-    .container{
-        background-color:white ;
-        width: 80%;
-        height: 700px;
-        border: none;
-        border-radius: 10px;
-        position: relative;
-        top: 100px;
-        left: 50px;
-    }
-    .image{
-        width: 250px;
-        height: 250px;
-        position: relative;
-        top: 50px;
-        left: 30px;
-    }
-    .prof{
-        position:absolute;
-        bottom:90px;
-        left: 50px;
-        color: rgb(16, 17, 19);
-    }
-    .wish{
-        font-size:large;
-    }
-    .name{
-        font-size:50px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: normal;
-        margin-top: 10px;
-    }
-    .front{
-        font-size: medium;
-        font-weight:bold;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 5px;
-    }
-    .dev{
-        color:rgb(161, 38, 161);
-    }
-    .social{
-        position: absolute;
-        bottom: 15px;
-        left: 50px;
-    }
-    .linkedin{
-        font-size: 30px;
-        color: rgb(11, 12, 12);
-        margin: 15px;
-    }
-    .git{
-        font-size:30px;
-        color: rgb(7, 9, 10);
-        margin: 15px;
-    }
-    .insta{
-        font-size:30px;
-        color: rgb(13, 14, 15);
-        margin: 15px;
-    }
-    .linkedin:hover{
-        color: rgb(36, 145, 235);
-        
-    }
-    .git:hover{
-       color: rgb(41, 162, 222);
-    }
-    .insta:hover{
-       color:rgb(251, 57, 88);
-        
-    }
-    .about{
-        height:750px;
-    }
-    .info:before{
-     margin-left: -70px;
-    }
-    .info{
-        left: 40px;
-        
-    }
-    .me{
-        left: 40px;
-    }
-    .aboutme{
-        width: 90%;
-        height: 150px;
-        left: 30px;
-    }
-    .cse{
-        text-align: start;
-        font-size:medium;
-        font-weight: 500;
-        top: 20px;
-        left: 1px;
-        color:#343a40;
-    }
-    .com{
-        left: 40px;
-    }
-    .com:before{
-        margin-left: -70px;
-    }
-    .skill{
-        left: 40px;
-    }
-    .skills{
-        width: 90%;
-        height: 150px;
-        left: 30px;
-    }
-    .flex-container{
-        font-size: 30px;
-    }
-    .myedu{
-        width: 100%;
-        height:1200px;
-    }
-    .edu{
-        left: 25px;
-        top: 20px;
 
+    .profile .profile-img img {
+        width: 100px;
+        height: 100px;
     }
-    .box{
-        display: flex;
-        flex-direction:column;
-        position: relative;
-        top:10%;
-        left:15px;
+
+    .profile .profile-text h1 {
+        font-size: 24px;
     }
-    .higher{
-        margin-bottom: 25px;
+
+    .social-links a {
+        font-size: 18px;
+    }
+
+    .skills h2,
+    .projects h2 {
+        font-size: 22px;
+    }
+
+    .skills-container,
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill,
+    .project {
         width: 90%;
     }
-    .contact{
-        width: 100%;
-        height: 1200px;
-    }
-    .contact-box{
-        width: 300px;
-        height: 700px;
-        position: relative;
-        top: 5%;
-        left:10%;
-    }
-    .input-field{
-        width: 300px;
-        height: 45px;
-        margin-top: 25px;
-        padding-left: 1px;
-        padding-right: 10px;
-        border: 1px solid #fff;
-        border-radius: 14px;
-        
-    }
-    .textarea-field{
-        height: 150px;
-        font-size:large;
-    }
-    .GIT{
-        background-color:none;
-        width: 100%;
-        height: 300px;
-        position: relative;
-        left:0;
-        bottom: 34px;
-    }
-    .GIT i{
-        margin-left: 15px;
-    }
-    .GIT a{
-        font-size:small;
-    }
-    .fmh{
-        color: rgb(156, 151, 151);
-        position: relative;
-        bottom: 28px;
-        left: 35%;
-    }
-    .smedia{
-        position: relative;
-        bottom:10px;
-        left:16%;
-        font-size: 35px;
-    }
-    
-
-
 }
