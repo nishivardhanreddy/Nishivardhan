@@ -31,11 +31,35 @@ nav ul li {
     margin-left: 20px;
 }
 
+/* Navbar Links with Interactive Hover Effects */
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
 }
+
+/* Hover Effect 1: Brightness and Zoom */
+nav ul li a:hover {
+    filter: brightness(1.5); /* Brightness effect */
+    transform: scale(1.1); /* Zoom effect */
+}
+
+/* Hover Effect 2: Opacity and Blur */
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white overlay */
+    backdrop-filter: blur(5px); /* Subtle blur effect */
+    transform: translateY(-3px); /* Floating effect */
+}
+
+/* Hover Effect 3: Border Expansion */
+nav ul li a:hover {
+    border-color: white; /* White border appears */
+}
+
 
 .profile {
     display: flex;
@@ -233,6 +257,34 @@ nav ul li a {
 
 .project a:hover {
     background-color: #555;
+}
+/* Resume Section */
+.resume {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.resume a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.resume a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px); /* Slight lift effect */
 }
 
 /* Footer */
