@@ -91,8 +91,3 @@ To access admin features:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 📧 Contact
-
-- Email: alex@example.com
-- LinkedIn: [Alex Chen](https://linkedin.com/in/alexchen)
-- GitHub: [alexchen](https://github.com/alexchen)
