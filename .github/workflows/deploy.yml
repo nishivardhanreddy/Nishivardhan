@@ -35,7 +35,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
-<<<<<<< HEAD
-=======
-        
->>>>>>> c4370fc (fix: clean gh-pages with force_orphan)
+        publish_branch: gh-pages
+        force_orphan: true
