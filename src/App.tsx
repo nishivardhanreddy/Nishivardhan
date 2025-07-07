@@ -81,7 +81,7 @@ const projects: Project[] = [
   title: "Player Performance Dashboard - IPL Cricket Analytics",
   shortDescription: "An interactive dashboard analyzing IPL player statistics using Python, delivering actionable insights through advanced visualizations.",
   fullDescription: "The Player Performance Dashboard is a data-driven web application focused on analyzing and visualizing IPL cricket player statistics. Built using Python and libraries like Pandas, Plotly, and Matplotlib, the project transforms raw performance data into interactive dashboards for coaches, analysts, and fans. It tracks metrics such as runs, strike rate, and batting average across multiple seasons. The dashboard emphasizes usability and visual appeal, enabling users to uncover trends, compare players, and make data-backed decisions. The project includes data cleaning, exploratory analysis, and insightful visual storytelling, making sports analytics more accessible and powerful.",
-  image: "public\images\Playerperformance.png", // Replace with your actual project screenshot if available
+  image: "\images\Playerperformance.png", // Replace with your actual project screenshot if available
   technologies: ["Python", "Pandas", "Plotly", "Matplotlib", "Seaborn", "NumPy"],
   features: [
     "📊 Visualizes key IPL metrics: runs, averages, strike rate, etc.",
@@ -103,7 +103,7 @@ const projects: Project[] = [
   title: "Emotion-Adaptive Voice Assistant",
   shortDescription: "A real-time voice assistant that adapts responses based on detected emotion, using Whisper, Groq API, and Gradio.",
   fullDescription: "This project is a voice assistant that transcribes speech, infers emotion, and generates adaptive responses in real time. It leverages Whisper for transcription, Groq API (LLaMA 3) for emotion-aware response generation, and Gradio for the interactive UI. The assistant dynamically adjusts its UI and voice output based on the user's detected mood, providing a more engaging and empathetic experience. Deployed on Hugging Face Spaces for easy access.",
-  image: "public\images\Emotive.png", // Replace with your actual project screenshot if available
+  image: "\images\Emotive.png", // Replace with your actual project screenshot if available
   technologies: [
     "Python",
     "Whisper",
@@ -131,7 +131,7 @@ const projects: Project[] = [
   title: "Crypto Price Prediction",
   shortDescription: "A Streamlit app that predicts next-day cryptocurrency prices using machine learning, visualizes live market data, and analyzes market trends.",
   fullDescription: "This project is a Streamlit-based dashboard that predicts the next day's cryptocurrency prices using a Random Forest model. It fetches live market data from the Binance API, visualizes price trends and technical indicators, and provides a dashboard of top gainers and losers. The app is designed for both casual traders and data enthusiasts, offering interactive charts and market risk analysis.",
-  image: "public\images\Crypto price.png",
+  image: "\images\Crypto price.png",
   technologies: [
     "Python",
     "Streamlit",
@@ -503,7 +503,7 @@ function App() {
             <div className="lg:col-span-1 flex justify-center lg:justify-start">
               <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden bg-stone-200 shadow-lg">
                 <img 
-                  src="public\images\Profilepic.jpg" 
+                  src="/images/Profilepic.jpg" 
                   alt="Nishivardhan Reddy - Professional Headshot"
                   className="w-full h-full object-cover transition-all duration-500"
                 />
