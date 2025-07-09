@@ -1,4 +1,4 @@
-# Alex Chen - Portfolio Website
+# Portfolio Website
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features a blog system, contact form, and admin panel for content management.
 
