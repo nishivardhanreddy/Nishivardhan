@@ -66,12 +66,7 @@ npm run build
 npm run deploy
 ```
 
-## 🔐 Admin Access
 
-To access admin features:
-1. Press `Ctrl + Shift + A` to open admin login
-2. Create an admin account or sign in
-3. Manage blog posts and view contact messages
 
 ## 📝 Environment Variables
 
