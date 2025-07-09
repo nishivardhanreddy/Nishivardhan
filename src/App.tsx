@@ -35,7 +35,7 @@ const projects: Project[] = [
   title: "TrackMyWarranty - Home Inventory & Warranty Management App",
   shortDescription: "A cross-platform app to manage home inventory, warranties, receipts, and maintenance schedules with smart reminders and notifications.",
   fullDescription: "TrackMyWarranty is a full-featured React Native app (built with Expo and TypeScript) designed to help users seamlessly track home inventory, manage product warranties, store purchase and service receipts, and receive timely maintenance reminders. The app supports secure multi-provider authentication, integrates push notifications, and offers a clean, intuitive dashboard experience. Built with a mobile-first approach and Supabase backend, it ensures real-time sync, secure storage, and user-friendly data organization across platforms.",
-  image: "public\images\Trackmywarranty.png?auto=compress&cs=tinysrgb&w=800", // Replace with a relevant screenshot or promo image
+  image: "/images/Trackmywarranty.png?auto=compress&cs=tinysrgb&w=800", // Replace with a relevant screenshot or promo image
   technologies: ["React Native", "Expo", "TypeScript", "Supabase", "PostgreSQL", "Expo Router", "Lucide", "Expo Notifications"],
   features: [
     "🔐 Multi-provider authentication (Email, Google, GitHub, Apple, Magic Link)",
