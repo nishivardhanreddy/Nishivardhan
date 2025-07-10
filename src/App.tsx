@@ -153,7 +153,7 @@ const projects: Project[] = [
   duration: "3 weeks",
   team: "Solo Developer (Nishivardhan Reddy)",
   githubUrl: "https://github.com/nishivardhanreddy/crypto-price-prediction", // Replace if different
-  liveUrl: "https://your-streamlit-link.com" // Replace with actual URL
+  liveUrl: "https://cryptopredictapp.azurewebsites.net/" // Replace with actual URL
 }
 
 
