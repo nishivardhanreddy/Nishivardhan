@@ -154,7 +154,31 @@ const projects: Project[] = [
   team: "Solo Developer (Nishivardhan Reddy)",
   githubUrl: "https://github.com/nishivardhanreddy/crypto-price-prediction", // Replace if different
   liveUrl: "https://cryptopredictapp.azurewebsites.net/" // Replace with actual URL
+},
+{
+  id: 6,
+  title: "The Secret Shelf – Anonymous Story Sharing Platform",
+  shortDescription: "A magical, anonymous web experience where users submit and explore secrets hidden inside animated books on a floating shelf.",
+  fullDescription: "The Secret Shelf is a visually immersive and emotionally reflective web platform built with React, Tailwind CSS, and Supabase. It allows users to submit secrets anonymously and read others' stories through an interactive floating bookshelf. Secrets are stored securely, categorized by theme (like Love, Regret, Fiction), and some are marked as 'rare' to enhance the mystery. The app features elegant UI animations, vote-based feedback, and surprise book reveals—all built with a serverless, scalable backend. Designed with a dark, poetic aesthetic, the site focuses on emotional storytelling and interaction without requiring login or identity.",
+  image: "/images/thesecretshelf.png?auto=compress&cs=tinysrgb&w=800", // Replace with actual screenshot or animated preview
+  technologies: ["React", "Tailwind CSS", "Framer Motion", "Supabase", "PostgreSQL", "Vercel"],
+  features: [
+    "📖 Interactive floating bookshelf UI with animated book elements",
+    "🕯️ Anonymous secret submission with title, category, and mystery effects",
+    "🌌 Secret reveal modal with parchment styling and voting system",
+    "🎲 Surprise Me button and category filters for secret discovery",
+    "✨ Rare secrets glow subtly and are randomly assigned (1 in 100)",
+    "🔐 Supabase backend with secure RLS policies and real-time sync",
+    "💬 Shared secret pages with deep-link support and SEO metadata"
+  ],
+  challenges: "Designing a truly immersive and anonymous experience without compromising visual aesthetics, and managing a performant, dynamic UI for secrets across categories and states.",
+  outcome: "Launched as a creative expression platform that encourages anonymous storytelling. Early testers appreciated the artistic UI, poetic vibe, and emotionally rich community feel.",
+  duration: "July 2025 – Present",
+  team: "Solo project",
+  githubUrl: "https://github.com/nishivardhan/thesecretshelf", // Replace with actual repo if needed
+  liveUrl: "https://thesecretshelf.vercel.app" // Replace with actual link if different
 }
+
 
 
 
