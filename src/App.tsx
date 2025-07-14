@@ -176,7 +176,7 @@ const projects: Project[] = [
   duration: "July 2025 – Present",
   team: "Solo project",
   githubUrl: "https://github.com/nishivardhan/thesecretshelf", // Replace with actual repo if needed
-  liveUrl: "https://thesecretshelf.vercel.app" // Replace with actual link if different
+  liveUrl: "https://the-secret-shelf-cyan.vercel.app/" // Replace with actual link if different
 }
 
 
