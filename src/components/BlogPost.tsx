@@ -115,7 +115,7 @@ export const BlogPost: React.FC<BlogPostProps> = ({ post, onBack }) => {
             <div className="flex items-start gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden bg-stone-200">
                 <img 
-                  src="public\images\Profilepic.jpg" 
+                  src="/images/Profilepic.jpg?auto=compress&cs=tinysrgb&w=200\" 
                   alt="Nishivardhan Reddy"
                   className="w-full h-full object-cover"
                 />
