@@ -497,7 +497,7 @@ function App() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
-              href="NishivardhanReddy_Resume.pdf" // Replace with your actual file path or URL
+              href="/NishivardhanReddy_Resume.pdf" // Replace with your actual file path or URL
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full sm:w-auto"> 
