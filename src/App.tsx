@@ -74,7 +74,7 @@ const projects: Project[] = [
   duration: "1 month",
   team: "Solo project",
   githubUrl: "https://github.com/nishivardhan/Health-Diagnosis-Assistant",
-  liveUrl: "healthdiagnosis.azurewebsites.net" // Replace with actual deployed link if hosted
+  liveUrl: "https://healthdiagnosis.azurewebsites.net" // Replace with actual deployed link if hosted
   },
   {
   id: 3,
@@ -96,7 +96,7 @@ const projects: Project[] = [
   duration: "2 months",
   team: "Solo project",
   githubUrl: "https://github.com/nishivardhan/Player-Performance-Dashboard",
-  liveUrl: "player-performance-dashboard-cpb3b4htgwbmc2cr.southindia-01.azurewebsites.net" // Replace with your actual deployed link if available
+  liveUrl: "https://player-performance-dashboard-cpb3b4htgwbmc2cr.southindia-01.azurewebsites.net" // Replace with your actual deployed link if available
 },
 {
   id: 4,
