@@ -73,7 +73,7 @@ const projects: Project[] = [
   outcome: "Created an educational health tool to support early diagnosis. Helped users understand disease patterns based on symptoms, while promoting proactive healthcare decisions.",
   duration: "1 month",
   team: "Solo project",
-  githubUrl: "https://github.com/nishivardhan/Health-Diagnosis-Assistant",
+  githubUrl: "https://github.com/nishivardhanreddy/Health-Diagnosis-Assistant",
   liveUrl: "https://healthdiagnosis.azurewebsites.net" // Replace with actual deployed link if hosted
   },
   {
@@ -95,7 +95,7 @@ const projects: Project[] = [
   outcome: "Developed an intuitive dashboard that simplifies IPL performance analysis, enhancing accessibility and understanding for various user groups including coaches, fans, and analysts.",
   duration: "2 months",
   team: "Solo project",
-  githubUrl: "https://github.com/nishivardhan/Player-Performance-Dashboard",
+  githubUrl: "https://github.com/nishivardhanreddy/Player-Performance-Dashboard-",
   liveUrl: "https://player-performance-dashboard-cpb3b4htgwbmc2cr.southindia-01.azurewebsites.net" // Replace with your actual deployed link if available
 },
 {
@@ -123,8 +123,8 @@ const projects: Project[] = [
   outcome: "Built a novel assistant that demonstrates emotion-adaptive AI, showcased at hackathons and shared with the open-source community.",
   duration: "2 months",
   team: "Solo Developer (Nishivardhan Reddy)",
-  githubUrl: "https://github.com/nishivardhanreddy/emotion-voice-assistant", // Replace if different
-  liveUrl: "https://huggingface.co/spaces/your-username/emotion-assistant" // Replace with actual URL
+  githubUrl: "https://github.com/nishivardhanreddy/Emotion-Adaptive-Voice-Assistant",
+  liveUrl: "https://huggingface.co/spaces/your-username/emotion-assistant" 
 },
 {
   id: 5,
@@ -152,7 +152,7 @@ const projects: Project[] = [
   outcome: "Deployed a working prototype that helps users explore crypto trends and prediction models, with positive feedback from early testers.",
   duration: "3 weeks",
   team: "Solo Developer (Nishivardhan Reddy)",
-  githubUrl: "https://github.com/nishivardhanreddy/crypto-price-prediction", // Replace if different
+  githubUrl: "https://github.com/nishivardhanreddy/Crypto-Price-Prediction", // Replace if different
   liveUrl: "https://cryptopredictapp.azurewebsites.net/" // Replace with actual URL
 },
 {
@@ -175,7 +175,7 @@ const projects: Project[] = [
   outcome: "Launched as a creative expression platform that encourages anonymous storytelling. Early testers appreciated the artistic UI, poetic vibe, and emotionally rich community feel.",
   duration: "July 2025 – Present",
   team: "Solo project",
-  githubUrl: "https://github.com/nishivardhan/thesecretshelf", // Replace with actual repo if needed
+  githubUrl: "https://github.com/nishivardhanreddy/The-Secret-Shelf", // Replace with actual repo if needed
   liveUrl: "https://the-secret-shelf-cyan.vercel.app/" // Replace with actual link if different
 }
 
