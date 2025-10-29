@@ -124,7 +124,7 @@ const projects: Project[] = [
   duration: "2 months",
   team: "Solo Developer (Nishivardhan Reddy)",
   githubUrl: "https://github.com/nishivardhanreddy/Emotion-Adaptive-Voice-Assistant",
-  liveUrl: "https://huggingface.co/spaces/your-username/emotion-assistant" 
+  liveUrl: "https://huggingface.co/spaces/nishiai/EmotiVoice" 
 },
 {
   id: 5,
