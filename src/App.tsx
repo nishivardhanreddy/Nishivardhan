@@ -74,7 +74,7 @@ const projects: Project[] = [
   duration: "1 month",
   team: "Solo project",
   githubUrl: "https://github.com/nishivardhanreddy/Health-Diagnosis-Assistant",
-  liveUrl: "https://healthdiagnosis.azurewebsites.net" // Replace with actual deployed link if hosted
+  liveUrl: "https://health-diagnosis-assistant.onrender.com/" // Replace with actual deployed link if hosted
   },
   {
   id: 3,
